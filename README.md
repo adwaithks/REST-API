@@ -11,6 +11,8 @@
 - JsonWebToken - Authentication
 - bcrypt - Hashing Passwords
 - ExpressJs - Framework
+- dotenv - Environement Variables
+- morgan - Logging Calls
 ```
 
 #### Available Routes :
