@@ -42,7 +42,6 @@ Content-Type: application/json
 
 
 ```
-
 POST http://localhost:3000/api/posts/create
 Content-Type: application/json
 Access-Token: Bearer <accessToken>
@@ -83,7 +82,6 @@ Access-Token: Bearer <accessToken>
 
 
 ```
-
 POST http://localhost:3000/api/posts/<postId>/comment
 Content-Type: application/json
 Access-Token: Bearer <accessToken>
