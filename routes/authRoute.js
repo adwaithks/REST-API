@@ -119,14 +119,14 @@ router.post('/forgotpwd', async(req, res) => {
           host: 'smtp.ethereal.email',
           port: 587,
           auth: {
-              user: 'bryce14@ethereal.email',
-              pass: 'wd67rHVe6pQfwMun5A'
+              user: '',
+              pass: ''
           }
       });
       
         let info = await transporter.sendMail({
-          from: 'bryce14@ethereal.email', 
-          to: 'bryce14@ethereal.email',
+          from: '', 
+          to: '',
           subject: "Password reset",
           text: "Password Reset Email - REST API NODEJS", 
           html: `<b>Token: ${token}</b>`, 
